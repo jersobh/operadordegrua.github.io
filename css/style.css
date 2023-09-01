@@ -10,6 +10,12 @@ body {
     max-width: 100vw;
 }
 
+@media (max-width:600px) {
+  h2.responsive {
+    font-size: 24px;
+  }
+}
+
 .pt-6 {
     padding-top: 90px;
 }
