@@ -259,22 +259,3 @@
     transform: skew(40deg);
 }
 
-#crane {
-    position: relative;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    pointer-events: none;
-    transition: transform 0.3s ease-out;
-  }
-#arm {
-position: relative;
-z-index: 100;
-width: 20px;
-height: 70vh;
-background-image: url("../img/crane.png");
-transform-origin: bottom center;
-border-style: solid;
-border-color: orange;
-border-width: 10px 0px 0px 0px;
-}
